@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+n",
+        "command": "-newFile.createNewFile"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "newFile.createNewFile"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-extension.advancedNewFile"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "extension.advancedNewFile"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "editor.action.transformToUppercase"
+    }
+]

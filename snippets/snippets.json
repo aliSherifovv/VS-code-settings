@@ -1,0 +1,60 @@
+{
+      "html": {
+            "snippets": {
+                  "header": "header.header",
+                  "hi": ".header__inner",
+                  "hc": ".header__content",
+                  "ha": ".header__actions",
+                  "hn": ".header__nav",
+                  "logo": "a.logo",
+                  "nav": "nav.nav>ul.menu>li>a",
+                  "navl": ".nav-lang>ul>li>a",
+                  "nava": ".nav-access>ul>li>a",
+                  "navu": ".nav-utilities>ul>li>a",
+                  "burger": "a.burger.js-burger>span",
+                  "section": "section.section",
+                  "sin": ".section__inner",
+                  "sc": ".section__content",
+                  "sh": ".section__head",
+                  "st": ".section__title",
+                  "sb": ".section__body",
+                  "se": ".section__entry",
+                  "sa": ".section__actions",
+                  "sf": ".section__foot",
+                  "si": ".section__image",
+                  "wid": "ul.widgets>li.widget>.widget__head+.widget__body",
+                  "slider": ".slider.js-slider>.slider__clip>.slider__slides>.slider__slide",
+                  "tabs": ".tabs.js-tabs>.tabs__head>.tabs__nav^.tabs__body>.tab",
+                  "acc": ".accordion.js-accordion>.accordion__section>.accordion__head+.accordion__body",
+                  "soc": ".socials>ul>li>a>img[src=\"$#\"]",
+                  "footer": "footer.footer",
+                  "fi": ".footer__inner",
+                  "fc": ".footer__content",
+                  "fb": ".footer__body",
+                  "fa": ".footer__actions",
+                  "wpimg": "<img src=\"<?php bloginfo('stylesheet_directory'); ?>/resources/images/temp/${0}\" alt=\"\">",
+                  "wpicon": "<?php get_template_part( './fragments/icons/ico-twitter${0}' ); ?>",
+                  "wpform": "<?php echo do_shortcode( '[gravityform id=\"1${0}\" title=\"true\" description=\"true\" ajax=\"true\"]' ); ?>",
+                  "a": "a[href='#']"
+            }
+      },
+      "css": {
+            "snippets": {
+                  "ihover": "@include hover {\n\t${0}\n}",
+                  "qtab": "@include breakpoint-down(tablet) {\n\t${0}\n}",
+                  "qmob": "@include breakpoint-down(mobile) {\n\t${0}\n}",
+                  "qmobs": "@include breakpoint-down(mobile-small) {\n\t${0}\n}",
+                  "qmobm": "@include breakpoint-down(mobile-medium) {\n\t${0}\n}",
+                  "qdes": "@include breakpoint-down(small-desktop) {\n\t${0}\n}",
+                  "qdesl": "@include breakpoint-down(large-desktop) {\n\t${0}\n}",
+                  "sin": ".section__inner {\n\t${0}\n}",
+                  "sc": ".section__content {\n\t${0}\n}",
+                  "sh": ".section__head {\n\t${0}\n}",
+                  "sb": ".section__body {\n\t${0}\n}",
+                  "se": ".section__entry {\n\t${0}\n}",
+                  "sa": ".section__actions {\n\t${0}\n}",
+                  "si": ".section__image {\n\t${0}\n}",
+                  "wptrans": "transition: ${0};\ntransition-duration: $t-duration;"
+            }
+      }
+}

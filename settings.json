@@ -1,0 +1,46 @@
+{
+    "editor.tokenColorCustomizations": {
+        "comments": "#696a6b"   
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#2e2d2d"
+    },
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.mouseWheelZoom": true,
+    "editor.roundedSelection": false,
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
+    "editor.minimap.showSlider": "always",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.indent": 15,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "terminal.explorerKind": "external",
+    "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+    "color-highlight.matchWords": true,
+    "colorize.colorized_variables": [
+        "SASS",
+        "CSS"
+    ],
+    "emmet.preferences": {
+        "output.inlineBreak": 0,
+        "filter.commentAfter": "<!-- /[#ID][.CLASS] -->"
+    },
+    "emmet.syntaxProfiles": {
+        "html" : {
+            "filters" : "html, c",
+            "inline_break": 1
+        }
+    },
+    "emmet.extensionsPath": [
+        "C:\\Users\\PC101\\AppData\\Roaming\\Code\\User\\snippets"
+    ],
+    "editor.snippetSuggestions": "top",
+    "emmet.showSuggestionsAsSnippets": true
+}

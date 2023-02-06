@@ -1,0 +1,36 @@
+{
+	// Place your snippets for css here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"Big section comment": {
+		"prefix": "scm",
+		"body": [
+			"/* ------------------------------------------------------------ *\\",
+			"    ${TM_FILENAME_BASE/(\\w+)|(-)/${1:/pascalcase}${2:+ }/g}",
+			"\\* ------------------------------------------------------------ */",
+			"",
+			"${TM_FILENAME_BASE/[\\_]/./} {\n\t${0}\n}"
+		],
+		"description": "Make a section comment"
+	},
+	"Small comment": {
+		"prefix": "cm",
+		"body": [
+			"/*  ${TM_FILENAME_BASE/(\\w+)|(-)/${1:/pascalcase}${2:+ }/g} $0  */",
+			"",
+			"${TM_FILENAME_BASE/[\\_]/./}--$0 {\n\t\n}"
+		],
+		"description": "Make a small section comment"
+	}
+}

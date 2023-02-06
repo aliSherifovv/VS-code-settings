@@ -1,0 +1,10 @@
+patbenatar.advanced-new-file
+formulahendry.auto-rename-tag
+kamikillerto.vscode-colorize
+Equinusocio.vsc-community-material-theme
+pranaygp.vscode-css-peek
+kisstkondoros.vscode-gutter-preview
+ritwickdey.LiveServer
+PKief.material-icon-theme
+equinusocio.vsc-material-theme-icons
+alefragnani.project-manager
