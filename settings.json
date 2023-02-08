@@ -1,6 +1,6 @@
 {
     "editor.tokenColorCustomizations": {
-        "comments": "#696a6b"   
+        "comments": "#696a6b"
     },
     "workbench.colorTheme": "Default Dark+",
     "workbench.colorCustomizations": {
@@ -17,6 +17,7 @@
     "editor.scrollbar.verticalScrollbarSize": 10,
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
     "editor.minimap.showSlider": "always",
+    "editor.insertSpaces": false,
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.indent": 15,
