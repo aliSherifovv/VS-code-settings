@@ -23,5 +23,17 @@
     {
         "key": "ctrl+u",
         "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+shift+y",
+        "command": "editor.emmet.action.evaluateMathExpression"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "editor.emmet.action.incrementNumberByOne"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "editor.emmet.action.decrementNumberByOne"
     }
 ]

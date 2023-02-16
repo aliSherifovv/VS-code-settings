@@ -12,7 +12,6 @@
                   "nava": ".nav-access>ul>li>a",
                   "navu": ".nav-utilities>ul>li>a",
                   "burger": "a.burger.js-burger>span",
-                  "section": "section.section",
                   "sin": ".section__inner",
                   "sc": ".section__content",
                   "sh": ".section__head",
@@ -54,7 +53,8 @@
                   "se": ".section__entry {\n\t${0}\n}",
                   "sa": ".section__actions {\n\t${0}\n}",
                   "si": ".section__image {\n\t${0}\n}",
-                  "wptrans": "transition: ${0};\ntransition-duration: $t-duration;"
+                  "wptrans": "transition: ${0};\ntransition-duration: $t-duration;",
+                  "lc": "&:last-child {\n\t${0}\n}"
             }
       }
 }
