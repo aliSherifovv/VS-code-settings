@@ -2,7 +2,7 @@
     "editor.tokenColorCustomizations": {
         "comments": "#696a6b"   
     },
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.colorCustomizations": {
         "statusBar.background": "#2e2d2d"
     },
@@ -46,5 +46,9 @@
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.includeLanguages": {
         "twig": "html"
+    },
+    "oneDarkPro.editorTheme": "One Dark Pro Darker",
+    "oneDarkPro.color": {
+        "deepRed": "#d04eed"
     }
 }
