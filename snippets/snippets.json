@@ -31,10 +31,10 @@
                   "fc": ".footer__content",
                   "fb": ".footer__body",
                   "fa": ".footer__actions",
+                  "a": "a[href='#']",
                   "wpimg": "<img src=\"<?php bloginfo('stylesheet_directory'); ?>/resources/images/temp/${0}\" alt=\"\">",
                   "wpicon": "<?php get_template_part( './fragments/icons/ico-twitter${0}' ); ?>",
-                  "wpform": "<?php echo do_shortcode( '[gravityform id=\"1${0}\" title=\"true\" description=\"true\" ajax=\"true\"]' ); ?>",
-                  "a": "a[href='#']"
+                  "wpform": "<?php echo do_shortcode( '[gravityform id=\"1${0}\" title=\"true\" description=\"true\" ajax=\"true\"]' ); ?>"
             }
       },
       "css": {
@@ -53,8 +53,11 @@
                   "se": ".section__entry {\n\t${0}\n}",
                   "sa": ".section__actions {\n\t${0}\n}",
                   "si": ".section__image {\n\t${0}\n}",
-                  "wptrans": "transition: ${0};\ntransition-duration: $t-duration;",
-                  "lc": "&:last-child {\n\t${0}\n}"
+                  "lc": "&:last-child {\n\t${0}\n}",
+                  "lcmb": "&:last-child {\n\tmargin-bottom: 0;\n}",
+                  "arrow": "&::after {\n\tcontent: '';\n\tposition: absolute;\n\tright: 0;\n\ttop: 5px;\n\tpadding: 0 7px 7px 0;\n\tborder: solid currentColor;\n\tborder-width: 0 3px 3px 0;\n\ttransform: rotate(${0}deg);\n\ttransition: transform;\n\ttransition-duration: $t-duration;\n}",
+                  "wpimg": "background-image: url('../images/temp/${0}');",
+                  "wptrans": "transition: ${0};\ntransition-duration: $t-duration;"
             }
       }
 }

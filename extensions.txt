@@ -9,3 +9,4 @@ PKief.material-icon-theme
 equinusocio.vsc-material-theme-icons
 alefragnani.project-manager
 whatwedo.twig
+jakob101.RelativePath

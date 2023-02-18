@@ -118,5 +118,16 @@
 			"});"
 		],
 		"description": "Initializes burger menu"
+	},
+	"Header height": {
+		"prefix": "headerh",
+		"body": [
+			"import { \\$win } from '../utils/globals';\n",
+			"const \\$header = $('.header');\n",
+			"\\$win.on('load resize', function () {",
+			"\t$(':root').css('--header-height', `${\\$header.outerHeight()}px`);",
+			"});"
+		],
+		"description": "Initializes header height management functionality"
 	}
 }
