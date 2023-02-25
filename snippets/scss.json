@@ -1,18 +1,4 @@
 {
-	// Place your snippets for scss here. Each snippet is defined under a snippet name and has a prefix, body and 
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
-	// same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
-
 	"Big section comment": {
 		"prefix": "scm",
 		"body": [
@@ -27,10 +13,90 @@
 	"Small comment": {
 		"prefix": "cm",
 		"body": [
-			"/*  ${TM_FILENAME_BASE/(\\w+)|(-)/${1:/pascalcase}${2:+ }/g} $0  */",
+			"/*  ${TM_FILENAME_BASE/(\\w+)|(-)/${1:/pascalcase}${2:+ }/g} $1  */",
 			"",
-			"${TM_FILENAME_BASE/[\\_]/./}--$0 {\n\t\n}"
+			"${TM_FILENAME_BASE/[\\_]/./}--$1 {\n\t$0\n}"
 		],
 		"description": "Make a small section comment"
+	},
+	"Burger button": {
+		"prefix": "burger",
+		"body": [
+			".burger {\r",
+			"\tdisplay: flex;\r",
+			"\tflex-direction: column;\r",
+			"\twidth: 30px;\r",
+			"\tgap: 6px;\r",
+			"\r",
+			"\t@include breakpoint-up(tablet) {\r",
+			"\t\tdisplay: none;\r",
+			"\t}\r",
+			"\r",
+			"\tspan {\r",
+			"\t\twidth: 100%;\r",
+			"\t\theight: 4px;\r",
+			"\t\tbackground: currentColor;\r",
+			"\t\tborder-radius: 20px;\r",
+			"\t\ttransition: transform;\r",
+			"\t\ttransition-duration: $t-duration;\r",
+			"\r",
+			"\t\t&:nth-child(1) {\r",
+			"\t\t\ttransform-origin: 0% 0%;\r",
+			"\t\t}\r",
+			"\r",
+			"\t\t&:nth-child(3) {\r",
+			"\t\t\ttransform-origin: 0% 100%;\r",
+			"\t\t}\r",
+			"\r",
+			"\t\tbody.header-open & {\r",
+			"\t\t\t&:nth-child(1) {\r",
+			"\t\t\t\ttransform: rotate(45deg);\r",
+			"\t\t\t}\r",
+			"\r",
+			"\t\t\t&:nth-child(2) {\r",
+			"\t\t\t\ttransform: scaleY(0);\r",
+			"\t\t\t}\r",
+			"\r",
+			"\t\t\t&:nth-child(3) {\r",
+			"\t\t\t\ttransform: rotate(-45deg);\r",
+			"\t\t\t}\r",
+			"\t\t}\r",
+			"\t}\r",
+			"}"
+		],
+		"description": "Displays burger button styles"
+	},
+	"Mixin background": {
+		"prefix": "mixinbg",
+		"body": [
+			"@mixin background {\r",
+			"\tpointer-events: none;\r",
+			"\tposition: absolute;\r",
+			"\ttop: 0;\r",
+			"\tleft: 0;\r",
+			"\twidth: 100%;\r",
+			"\theight: 100%;\r",
+			"\r",
+			"\timg {\r",
+			"\t\twidth: 100%;\r",
+			"\t\theight: 100%;\r",
+			"\t\tobject-fit: cover;\r",
+			"\t}\r",
+			"}"
+		],
+		"description": "Initializes mixin for background images"
+	},
+	"Init hover mixin": {
+		"prefix": "mixinhover",
+		"body": [
+			"@mixin hover {\r",
+			"\t@media (hover: hover) AND (pointer: fine) {\r",
+			"\t\t&:hover {\r",
+			"\t\t\t@content;\r",
+			"\t\t}\r",
+			"\t}\r",
+			"}"
+		],
+		"description": "Initializes hover mixin"
 	}
 }

@@ -31,7 +31,10 @@
     ],
     "emmet.preferences": {
         "output.inlineBreak": 0,
-        "filter.commentAfter": "<!-- /[#ID][.CLASS] -->"
+        "filter.commentTrigger": [
+            "class"
+        ],
+        "filter.commentAfter": "<!-- /[.CLASS] -->"
     },
     "emmet.syntaxProfiles": {
         "html" : {
@@ -50,5 +53,6 @@
     "oneDarkPro.editorTheme": "One Dark Pro Darker",
     "oneDarkPro.color": {
         "deepRed": "#d04eed"
-    }
+    },
+    "emmet.triggerExpansionOnTab": true
 }

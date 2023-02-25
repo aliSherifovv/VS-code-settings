@@ -11,3 +11,4 @@ alefragnani.project-manager
 whatwedo.twig
 jakob101.RelativePath
 zhuangtongfa.material-theme
+wware.snippet-creator

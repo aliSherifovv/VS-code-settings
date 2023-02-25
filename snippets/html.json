@@ -1,0 +1,16 @@
+{
+	"Section query": {
+		"prefix": "sq",
+		"body": [
+			"<section class=\"section-$1\">\n\t$0\n</section><!-- /.section-$1 -->"
+		],
+		"description": "Displays section with the cursor on the class name"
+	},
+	"Section element query": {
+		"prefix": "seq",
+		"body": [
+			"<div class=\"section__$1\">\n\t$0\n</div><!-- /.section__$1 -->"
+		],
+		"description": "Displays section element with the cursor on the class name"
+	}
+}
