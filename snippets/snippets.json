@@ -20,6 +20,7 @@
                   "sa": ".section__actions",
                   "shell": ".shell",
                   "shellf": "shell.shell--fluid",
+                  "card": ".card>figure.card__img>img^.card__content>header.card__head>h6^.card__body>p^.card__actions>a",
                   "wid": "ul.widgets>li.widget>header.widget__head+.widget__body",
                   "slider": ".slider.js-slider>.slider__clip>.slider__slides>.slider__slide",
                   "swiper": ".slider.js-slider>.slider__clip.swiper>.slider__slides.swiper-wrapper>.slider__slide.swiper-slide",
@@ -29,21 +30,16 @@
                   "tabs": ".tabs.js-tabs>header.tabs__head>nav.tabs__nav^.tabs__body>.tab",
                   "acc": ".accordion.js-accordion>.accordion__section>header.accordion__head+.accordion__body",
                   "soc": ".socials>ul>li>a>img",
+                  "soci": ".socials>ul>li>a>icon",
                   "footerf": "footer.footer",
                   "fi": ".footer__inner",
                   "fc": ".footer__content",
                   "fb": ".footer__body",
                   "fa": ".footer__actions",
                   "a": "a[href='#']",
-                  "wpimg": "<img src=\"<?php bloginfo('stylesheet_directory'); ?>/resources/images/temp/${0}.jpg\" alt=\"\">",
-                  "wpicon": "<?php get_template_part( './fragments/icons/ico-${0:twitter}' ); ?>",
-                  "wpform": "<?php echo do_shortcode( '[gravityform id=\"1${0}\" title=\"true\" description=\"true\" ajax=\"true\"]' ); ?>",
-                  "wpsi": "figure.section__image>wpimg",
-                  "wpsbg": "figure.section__bg>wpimg",
-                  "wpsoc": ".socials>ul>li>a>wpimg",
-                  "wpsoci": ".socials>ul>li>a>wpicon",
-                  "wpcard": ".card>figure.card__img>wpimg^.card__content>header.card__head>h6^.card__body>p^.card__actions>a",
-                  "wplogo": "a.logo>wpimg"
+                  "img": "<img src=\"<?php bloginfo('stylesheet_directory'); ?>/resources/images/temp/${0}.jpg\" alt=\"\">",
+                  "icon": "<?php get_template_part( './fragments/icons/ico-${0:twitter}' ); ?>",
+                  "wpform": "<?php echo do_shortcode( '[gravityform id=\"1${0}\" title=\"true\" description=\"true\" ajax=\"true\"]' ); ?>"
             }
       },
       "css": {
