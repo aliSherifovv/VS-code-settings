@@ -46,6 +46,7 @@
             "snippets": {
                   "pi": "padding-inline: ${0};",
                   "mi": "margin-inline: auto;",
+                  "centerabsolute": "position: absolute;\ntop: 50%;\nleft: 50%;\ntransform: translate(-50%, -50%);",
                   "wpimg": "background-image: url('../images/temp/${0}');",
                   "wptrans": "transition: ${0};\ntransition-duration: $t-duration;"
             }
