@@ -12,4 +12,4 @@ whatwedo.twig
 jakob101.RelativePath
 zhuangtongfa.material-theme
 wware.snippet-creator
-DEVSENSE.phptools-vscode
+bmewburn.vscode-intelephense-client
