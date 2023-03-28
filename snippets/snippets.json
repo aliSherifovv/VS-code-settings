@@ -39,7 +39,8 @@
                   "a": "a[href='#']",
                   "img": "<img src=\"<?php bloginfo('stylesheet_directory'); ?>/resources/images/temp/${0}.jpg\" alt=\"\">",
                   "icon": "<?php get_template_part( './fragments/icons/ico-${0:twitter}' ); ?>",
-                  "wpform": "<?php echo do_shortcode( '[gravityform id=\"1${0}\" title=\"true\" description=\"true\" ajax=\"true\"]' ); ?>"
+                  "wpform": "<?php echo do_shortcode( '[gravityform id=\"1${0}\" title=\"true\" description=\"true\" ajax=\"true\"]' ); ?>",
+                  "php": "<?php ${0} ?>"
             }
       },
       "css": {
